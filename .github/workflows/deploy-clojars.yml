@@ -1,6 +1,10 @@
 name: deploy-clojars
 
-on: push
+on:
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   deploy-clojars:
